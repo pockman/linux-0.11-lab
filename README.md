@@ -145,7 +145,7 @@ Optional
     $ wget ftp://ftp.gnu.org/gnu/gdb/gdb-7.4.tar.bz2
     $ tar -xzvf gdb-7.4.tar.bz2
     $ cd gdb-7.4
-    $ ./configure --target=i386-elf
+    $ ./configure --target=i386-elf --disable-werror
     $ make
 
 <span id="hack-linux-0.11-on-mac"></span>
